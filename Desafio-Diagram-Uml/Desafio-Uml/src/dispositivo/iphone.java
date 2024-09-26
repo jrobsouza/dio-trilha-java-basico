@@ -1,24 +1,11 @@
 package dispositivo;
 
-
-
 import componentes.aparelhoTelefonico;
 import componentes.navegadorInternet;
 import componentes.reprodutorMusical;
 
 public class iphone implements aparelhoTelefonico, navegadorInternet, reprodutorMusical {
-    @Override
-    public boolean equals(Object obj) {
-        // TODO Auto-generated method stub
-        return super.equals(obj);
-    }
-
-    @Override
-    public int hashCode() {
-        // TODO Auto-generated method stub
-        return super.hashCode();
-    }
-
+    
     public void ligar() {
         System.out.println("Fazendo ligação...");
     }
@@ -61,9 +48,6 @@ public class iphone implements aparelhoTelefonico, navegadorInternet, reprodutor
         System.out.println("Selecionando musica...");
     }
 
-    /**
-     * 
-     */
     public void iniciarCorreioVoz() {
         throw new UnsupportedOperationException("Not supported yet.");
     }
