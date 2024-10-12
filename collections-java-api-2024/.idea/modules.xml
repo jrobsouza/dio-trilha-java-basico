@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/collections-java-api-2024.iml" filepath="$PROJECT_DIR$/collections-java-api-2024.iml" />
+      <module fileurl="file://$PROJECT_DIR$/passivosRF/passivosRF.iml" filepath="$PROJECT_DIR$/passivosRF/passivosRF.iml" />
     </modules>
   </component>
 </project>
