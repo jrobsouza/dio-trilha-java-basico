@@ -27,7 +27,7 @@ public class DispositivoDC6 {
         }
 
         public double getSaidaInsercaoTx() {
-            return this.valorTx - this.perdaInsercao;
+            return this.valorTx + this.perdaInsercao;
         }
 
         public double getSaidaInsercaoRx() {
@@ -43,7 +43,7 @@ public class DispositivoDC6 {
         }
 
         public double getSaidaTapTx() {
-            return this.valorTx - this.perdaTap;
+            return this.valorTx + this.perdaTap;
         }
 
         public double getSaidaTapRx() {
@@ -52,7 +52,7 @@ public class DispositivoDC6 {
 
         public static void main(String[] args) {
             passivoDC.DispositivoDC6 dispositivo = new passivoDC.DispositivoDC6();
-            dispositivo.setValoresRF(10.0, 8.0, 32.0, 16.0); // Exemplo de valores de entrada RF
+            dispositivo.setValoresRF(38.0, 33.0, 17.0, 37.0); // Exemplo de valores de entrada RF
 
             System.out.println("Saída de Inserção (Alto): " + dispositivo.getSaidaInsercaoAlto() + " dB");
             System.out.println("Saída de Inserção (Baixo): " + dispositivo.getSaidaInsercaoBaixo() + " dB");

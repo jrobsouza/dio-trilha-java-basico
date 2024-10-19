@@ -30,6 +30,6 @@ public class main {
         System.out.println("Saída de Inserção DC9: " + saidaInsercaoDC9);
         System.out.println("Saída de Inserção DC6: " + saidaInsercaoDC6);
         System.out.println("Saída de Tap DC9: " + saidaTapDC9);
-        System.out.println("Saída Tap DSU8 (qualquer saída): " + saidasDSU8[0]);
+        System.out.println("Saída Inserção DSU8 (qualquer saída): " + saidasDSU8[0]);
     }
 }
